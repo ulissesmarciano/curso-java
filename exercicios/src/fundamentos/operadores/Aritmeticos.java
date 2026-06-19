@@ -1,4 +1,4 @@
-package fundamentos;
+package fundamentos.operadores;
 
 public class Aritmeticos {
     public static void main(String[] args) {
@@ -22,4 +22,6 @@ public class Aritmeticos {
         System.out.println(a / (double) b);
         System.out.println(a % b);
     }
+
+
 }
