@@ -2,7 +2,7 @@ package exercicios.modulo.fundamentos;
 
 import java.util.Scanner;
 
-public class ConversorTemperatura {
+public class ConversorFarenheitCelsius {
     public static void main(String[] args) {
 
         System.out.println("Insira os graus farenheit:");
