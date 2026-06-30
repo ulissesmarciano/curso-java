@@ -4,12 +4,16 @@ public class DataTeste {
     public static void main(String[] args) {
 
         Data d1 = new Data();
-        d1.dia = 30;
-        d1.mes = "junho";
-        d1.ano = 2026;
+        var d2 = new Data(30, "junho", 2026);
+
+
 
         String dataFormatada = d1.obterDataFormatada();
 
         System.out.println(dataFormatada);
+
+        String data2Formatada = d2.obterDataFormatada();
+
+        System.out.println(data2Formatada);
     }
 }
