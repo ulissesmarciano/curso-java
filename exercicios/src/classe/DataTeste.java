@@ -8,7 +8,7 @@ public class DataTeste {
         d1.mes = "junho";
         d1.ano = 2026;
 
-        String dataFormatada = "Hoje é dia " + d1.dia + " de " + d1.mes + " de " + d1.ano + ".";
+        String dataFormatada = d1.obterDataFormatada();
 
         System.out.println(dataFormatada);
     }
