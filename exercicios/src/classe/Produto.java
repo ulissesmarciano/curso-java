@@ -3,5 +3,13 @@ package classe;
 public class Produto {
     String nome;
     double preco;
-    double deconto;
+    double desconto;
+
+    double precoComDesconto(double descontoAdicional){
+        return preco * (1 - desconto + descontoAdicional);
+    }
+
+    double precoComDesconto(){
+        return preco * (1 - desconto);
+    }
 }
