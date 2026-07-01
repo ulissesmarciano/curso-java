@@ -20,4 +20,6 @@ public class Data {
     String obterDataFormatada () {
         return dia + "/" + mes + "/" + ano;
     }
+
+    //não se utiliza this em um contexto static
 }
