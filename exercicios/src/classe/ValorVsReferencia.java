@@ -10,11 +10,11 @@ public class ValorVsReferencia {
 
         System.out.println(a + " " + b);
 
-        Data d1 = new Data(1, "junho", 2022);
+        Data d1 = new Data(1, 6, 2022);
         Data d2 = d1; // atribuição por referência (Objeto)
 
         d1.dia = 31;
-        d2.mes = "dezembro" ;
+        d2.mes = 12 ;
 
         System.out.println(d1.obterDataFormatada());
         System.out.println(d2.obterDataFormatada());
@@ -27,7 +27,7 @@ public class ValorVsReferencia {
 
     static void voltarDataParaValorPadrao(Data d){
         d.dia = 1;
-        d.mes = "janeiro";
+        d.mes = 1;
         d.ano = 1970;
     }
 }

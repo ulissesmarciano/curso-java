@@ -4,7 +4,7 @@ public class DataTeste {
     public static void main(String[] args) {
 
         Data d1 = new Data();
-        var d2 = new Data(30, "junho", 2026);
+        var d2 = new Data(30, 6, 2026);
 
 
 

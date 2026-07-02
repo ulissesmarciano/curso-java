@@ -2,23 +2,24 @@ package classe;
 
 public class Data {
     int dia;
-    String mes;
+    int mes;
     int ano;
 
     Data () {
         dia = 1;
-        mes= "janeiro";
+        mes= 1;
         ano = 1970;
     }
 
-    Data (int dia, String mes, int ano){
+    Data (int dia, int mes, int ano){
         this.dia = dia;
         this.mes = mes;
         this.ano = ano;
     }
 
     String obterDataFormatada () {
-        return dia + "/" + mes + "/" + ano;
+        final String formato = "%d/%d/%d";
+        return String.format(formato, this.dia, mes, ano);
     }
 
     //não se utiliza this em um contexto static
